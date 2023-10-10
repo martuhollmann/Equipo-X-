@@ -3,32 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Viajes</title>
+    <link rel="shortcut icon" href="https://www.flaticon.com/free-icon/mail_650953?term=plane&related_id=650953" type="image/x-icon">
+    <title>Viajando por el mundo</title>
+    <script src="https://kit.fontawesome.com/f9bb58e379.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/styleform.css">
 </head>
 <body>
-    <h1>Formulario de contacto</h1>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html"><img src="/asset/icon.png" alt="Logo del blog"></a>
+        </div>
+        <nav>
+            <ul class="nav-enlaces">
+                <li><a href="/sobremi.html">Sobre mi</a></li>
+                <li><a href="/curiosidades.html">Curiosidades</a></li>
+                <li><a href="/planificarviaje.html">Planificá tu viaje</a></li>
+            </ul>              
+        </nav>
+        <a href="/formContacto.html" class="btn"><button>Contacto</button></a>
+    </header>
+    <div>
+        <img class="imgheader" src="/asset/header TP/h.png" alt="header">
+    </div>
+    
+    <div class="containerppal">
     <p>¡Gracias por visitar mi blog de viajes! Si tienes preguntas, comentarios o simplemente deseas compartir tus propias experiencias de viaje, ¡estaré encantado de escucharte! Por favor, completa el formulario a continuación y me pondré en contacto contigo lo antes posible.</p>
+    <br><br>
 
+    <div class="form">
     <label for="firstname">Nombre:</label>
         <input size=30 id="firstname" type="text">
         <br><br>
         <label for="mail">E-mail:</label>
         <input size=30 id="mail" type="email">
-        <br><br>
+        <br><br><br>
     
     <p>¿Te gustaría suscribirte a nuestro boletín de noticias para recibir actualizaciones?</p>
+    <br>
     <input type="radio" name="opcion" value="1">Sí
     <input type="radio" name="opcion" value="1">No
-    
-    <p><b>¿Tienes alguna anécdota de viaje especial que te gustaría compartir con la comunidad? <br> ¿Te gustaría que explore para comapartir en futuras publicaciones? </br></p>
+    <br><br><br>
+    <p><b>¿Tienes alguna anécdota de viaje especial que te gustaría compartir con la comunidad? <br> 
+    ¿Te gustaría que explore para comapartir en futuras publicaciones? </br></p>
+    <br><br><br>
     <textarea name="comments" id="" cols="30" rows="10">Escribe aquí!</textarea>
     <br>
     <input type="submit" value="Enviar">
     <input type="reset" value="Borrar">
-    
+    <br><br>
     <p>¡Gracias por compartir tus pensamientos y ser parte de nuestra comunidad de viajes!</p>
+    </div>
 
     <!--https://app.netlify.com/drop-->
+    </div>
 
+    <footer class="containerfooter">
+        <a class="afooter" href="#">Aviso de privacidad</a> <br> <br>
+        <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+
+       
+
+        <p class="pfooter">Copyright 2023</p>
+
+    </footer>
 </body>
 </html>
