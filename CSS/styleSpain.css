@@ -130,20 +130,17 @@ h2 {
 }
 
 
-.madrid, .barcelona {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: flex; 
-    justify-content: center;
-}
-
 .contenedor-cajas {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
 }
 
  .caja2, .caja4{
