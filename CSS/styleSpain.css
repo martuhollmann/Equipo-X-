@@ -357,7 +357,7 @@ h2 {
     width:70%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 3fr); /*3 columnas de igual ancho */
+    grid-template-columns: repeat(3, 2fr); /*3 columnas de igual ancho */
     grid-gap: 5%;
 }
 
