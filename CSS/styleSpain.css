@@ -167,11 +167,11 @@ h2 {
     margin: 0 15%;
 }
 
-.caja2 img:hover , .caja4 img:hover {
+.caja2 img:hover , .caja4 img:hover, .caja7 img:hover {
     transform: scale(1.1);
 }
 
-.caja3 h3 {
+.caja3 h3, .caja5 h3, .caja6 h3{
     padding: 0.3rem;
     margin: 0.4rem;
 }

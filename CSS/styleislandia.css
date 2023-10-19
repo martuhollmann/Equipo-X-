@@ -144,7 +144,7 @@ h2 {
 }
 
 /*3 fotos */
- .caja2, .caja4{
+ .caja2, .caja4, .caja6{
     width:70%;
     height: auto;
     display: grid;
@@ -162,18 +162,18 @@ h2 {
     margin-left: 8%;
 }
 
-.caja2 img, .caja4 img { 
+.caja2 img, .caja4 img  , .caja6 img{ 
     width: 100%;
     height: auto;
     border-radius: 15px;
     margin: 0 15%;
 }
 
-.caja2 img:hover , .caja4 img:hover {
+.caja2 img:hover , .caja4 img:hover, .caja6 img:hover {
     transform: scale(1.1);
 }
 
-.caja3 h3 {
+.caja3 h3, .caja5 h3, .caja7 h3{
     padding: 0.3rem;
     margin: 0.4rem;
 }

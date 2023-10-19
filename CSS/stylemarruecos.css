@@ -143,7 +143,7 @@ h2 {
     justify-content: center;
 }
 
- .caja2, .caja4, .caja7{
+ .caja2, .caja4, .caja6, .caja8{
     width:70%;
     height: auto;
     display: grid;
@@ -151,7 +151,7 @@ h2 {
     grid-gap: 5%;
 }
 
-.caja3, .caja5, .caja6{
+.caja3, .caja5, .caja7, .caja9{
     width: 70%;
     margin: 2%;
     padding: 2%;
@@ -160,23 +160,23 @@ h2 {
     margin-left: 8%;
 }
 
-.caja2 img, .caja4 img, .caja7 img{ 
+.caja2 img, .caja4 img, .caja6 img, .caja8 img{ 
     width: 100%;
     height: auto;
     border-radius: 15px;
     margin: 0 15%;
 }
 
-.caja2 img:hover , .caja4 img:hover {
+.caja2 img:hover , .caja4 img:hover, .caja6 img:hover, .caja8 img:hover {
     transform: scale(1.1);
 }
 
-.caja3 h3 {
+.caja3 h3, .caja5 h3, .caja7 h3, .caja9 h3     {
     padding: 0.3rem;
     margin: 0.4rem;
 }
 
-.caja3 p, .caja5 p, .caja6 p{
+.caja3 p, .caja5 p, .caja7 p, .caja9 p{
     padding: 0.3rem;
     text-align: justify;
     margin: 0.4rem;
