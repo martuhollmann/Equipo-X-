@@ -83,15 +83,17 @@ header .logo img:hover{
  /* main */
 
 .containerppal {
-    margin-left: 15% ;
-    margin-right: 15% ;
+    margin-left: 17% ;
+    margin-right: 17%;
+   
 }
 
 .form {
     border: solid violet 0.1rem;
-    padding: 0.4rem;
+    padding: 5%;
     margin-left: 17%;
     margin-right: 17%;
+    border-radius: 35px 0 35px 0;
 }
 
  /* footer */
