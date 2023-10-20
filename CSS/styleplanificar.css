@@ -89,6 +89,9 @@ header .logo img:hover{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
+    background-color: whitesmoke;
+    border: solid black;
+    padding: 5%;
 }
 
 h1 {
