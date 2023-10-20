@@ -110,9 +110,18 @@ h2 {
 }
 
 
-.p{
+p{
     text-align: justify;
-    font-size: 1.2rem ;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+}
+
+.contenedor-principal li{
+    text-align: justify;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
 }
 
 

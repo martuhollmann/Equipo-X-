@@ -82,20 +82,29 @@ header .logo img:hover{
 
  /* main */
 
-.container {
+ .container{
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    border: solid black;
+    padding: 5%;
 }
 
-.container p{
-    text-align: justify;
-  
-}
-
-.container h1{
+h1 {
     text-align: center;
-    size: 0.3rem;
-    padding: 2.9rem;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    padding: 2%;
+    line-height: 1.5;
 }
 
 
