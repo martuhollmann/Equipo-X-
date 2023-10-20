@@ -108,7 +108,7 @@ h2 {
    
 }
 
-p{
+.containerPrincipal p{
     text-align: justify;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
@@ -138,9 +138,10 @@ p{
 }
 .fa-instagram{
     margin: 0 10px;
+    color: white;
 }
   
 .fa-facebook{
     margin: 0 10px;
-   
+    color: white;
 }
