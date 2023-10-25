@@ -350,7 +350,8 @@ h2 {
     height: auto;
     overflow: hidden;
     display: flex; 
-    justify-content: center;
+    margin: auto;
+
 }
 
  .caja2, .caja4, .caja7{
@@ -419,3 +420,165 @@ h2 {
     margin: 0 10px;
    
 }
+
+/* Estilos para tablet */
+
+/* Estilos para tabletas (ancho máximo de 768px) */
+@media screen and (max-width: 768px) {
+    .header .nav-enlaces {
+        display: list-item;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 5px;
+    }
+
+    .header .nav-enlaces li {
+        padding: 10px 0;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .header .nav-hamburguesa {
+        display: list-item;
+        cursor: pointer;
+        color: #eceff1;
+    }
+
+    .contenedor-cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex; 
+        margin: 20px;
+    
+    }
+
+    .caja2, .caja4, .caja7{
+        width:70%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+  
+ /*       display: flex;
+        grid-template-columns: repeat(2, 2fr); /*2 columnas de igual ancho */
+        grid-gap: 5%;
+        margin: 20px;
+    }
+    .caja3, .caja5, .caja6{
+        width: 70%;
+        margin: 20px;
+        padding: 2%;
+        border: solid plum 1px;
+        border-radius: 15px;
+        margin-left: 8%;
+    }
+
+    .caja2 img, .caja4 img, .caja7 img{ 
+    width: 50%;
+    height: 20%;
+    border-radius: 15px;
+    margin: 15px;
+}
+.imgheader {
+    width: 0 auto;
+    height: 30vh;
+    align-content: center;
+    margin-top: 25px;
+    display: block;
+}
+
+}   
+
+
+
+
+/* Estilos para dispositivos móviles (ancho máximo de 480px) */
+@media screen and (max-width: 480px)  {
+    .header .nav-enlaces {
+        display:list-item ;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header .nav-enlaces li {
+        padding: 10px 0;
+    }
+
+    .header .nav-hamburguesa {
+        display:list-item ;
+        cursor: pointer;
+        color: #eceff1;
+    }
+
+    .contenedor-cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex; 
+        margin: 5px;
+    
+    }
+
+    .caja2, .caja4, .caja7{
+        width:70%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;  
+ /*       display: flex;
+        grid-template-columns: repeat(2, 2fr); /*2 columnas de igual ancho 
+        grid-gap: 5%;*/
+        margin: 5px;
+    }
+    .caja3, .caja5, .caja6{
+        width: 70%;
+        margin: 5px;
+        padding: 2%;
+        border: solid plum 1px;
+        border-radius: 15px;
+        margin-left: 8%;
+    }
+
+    .caja2 img, .caja4 img, .caja7 img{ 
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    margin: 15px;
+    }
+
+    .imgheader {
+        width: 100%;
+        height: 30vh;
+        align-content: center;
+        margin-top: 130px;
+        display: block;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 4rem;
+        letter-spacing: 0.2rem;
+    }
+} 
