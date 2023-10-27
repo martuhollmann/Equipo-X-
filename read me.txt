@@ -1,0 +1,43 @@
+Trabajo integrador de Codo a Codo 
+						
+Título de la página: Blog de viajes. 
+Este sitio web, "Viajando por el Mundo," tiene como objetivo inspirar a los visitantes a explorar diferentes lugares y culturas alrededor del mundo. Ofrecemos relatos de viajes, consejos, curiosidades y detalles sobre destinos emocionantes. Nuestra misión es fomentar el aprendizaje, la aventura y la apreciación de la diversidad global a través de la exploración de nuevos horizontes.					
+"Viajando por el Mundo" está principalmente dirigido a entusiastas de los viajes y aventureros. La audiencia principal incluye a personas de todas las edades que tienen interés en explorar diferentes destinos, conocer nuevas culturas, y obtener consejos útiles para sus propios viajes. Además, el sitio puede atraer a viajeros potenciales, soñadores de aventuras y cualquier persona que busque inspiración para sus próximas escapadas. La audiencia objetivo es diversa y abarca desde viajeros novatos hasta experimentados, todos unidos por su amor por la exploración y el descubrimiento		 							
+La estructura del sitio web está diseñada para proporcionar a los visitantes una visión general de las experiencias de viaje y aventuras que ofrece, permitiéndoles explorar y encontrar información relevante de manera sencilla. La página de inicio y las secciones de contenido principal son el corazón del sitio, brindando inspiración y consejos para viajar. El footer proporciona información adicional y acceso a las redes sociales del sitio para una mayor interacción.
+
+
+Estilo visual:
+El estilo es moderno y atractivo, con un enfoque en imágenes de alta calidad que capturan la belleza de los destinos de viaje.
+Se utiliza un diseño limpio y minimalista para mantener la atención en el contenido y las imágenes.
+El sitio incorpora elementos visuales relacionados con el mundo de los viajes, como imágenes de paisajes, aventuras al aire libre y culturas diversas.
+
+Paleta de Colores:
+La paleta de colores es vibrante y evoca la diversidad de los destinos de viaje. Incluye colores como:
+Blanco y gris: Se utilizan para mantener la simplicidad y la legibilidad.
+
+Tipografía:
+Nunito, sans serif logra una apariencia limpia y fácil de leer, lo que mejora la experiencia del usuario al navegar por el contenido.
+
+Elementos Visuales:
+El sitio hace un uso extensivo de imágenes de alta resolución, que ocupan un lugar destacado en la página de inicio y en las secciones de contenido.
+Se emplean íconos relacionados con viajes, como un avión alrededor del mundo, para reforzar la temática.					
+
+Contenido: 
+
+Página de Inicio: Una introducción al sitio web con información clave y enlaces a otras secciones.
+Acerca de Nosotros: Información sobre nosotros.
+Curiosidades: Información relacionada con lugares turísticos.
+Galería de Imágenes: Colección de imágenes relevantes a cada país/ ciudad.
+Contacto: Información de contacto, correo electrónico y formulario de contacto.
+
+Funcionalidades interactivas:
+Formulario de Contacto: Un formulario que permite a los visitantes enviar consultas o comentarios, suscribirse al newsletter.					
+Integrantes Equipo X:
+Diego Cortez Fernandez		
+Raquel Garcia
+Martina Hollmann			
+						
+		
+			
+				
+	
