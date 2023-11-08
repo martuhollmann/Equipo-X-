@@ -7,6 +7,7 @@
     <title>Viajando por el mundo</title>
     <script src="https://kit.fontawesome.com/f9bb58e379.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/CSS/styleform.css">
+    
 </head>
 <body>
     <header class="header">
@@ -29,7 +30,7 @@
     <p>¡Gracias por visitar mi blog de viajes! Si tienes preguntas, comentarios o simplemente deseas compartir tus propias experiencias de viaje, ¡estaré encantado de escucharte! Por favor, completa el formulario a continuación y me pondré en contacto contigo lo antes posible.</p>
     <br><br>
 
-    <form class="form" action="https://formspree.io/f/xeqbnlyj" method="POST">
+    <form class="form" action="https://formspree.io/f/xeqbnlyj" method="POST" id="formulario">
     <label for="firstname">Nombre:</label>
         <input name="name" size=30 id="firstname" type="text">
         <br><br>
@@ -40,20 +41,17 @@
     <p>¿Te gustaría suscribirte a nuestro boletín de noticias para recibir actualizaciones?</p><i class="fa-solid fa-envelope"></i>
     <br>
     <input type="radio" name="opcion" value="1">Sí
-    <input type="radio" name="opcion" value="1">No
+    <input type="radio" name="opcion" value="2">No
     <br><br><br>
-    <p><b>¿Tienes alguna anécdota de viaje especial que te gustaría compartir con la comunidad? <br> 
-    ¿Te gustaría que explore para comapartir en futuras publicaciones? </br></p>
+    <p>¿Tienes alguna anécdota de viaje especial que te gustaría compartir con la comunidad? ¿Te gustaría que explore para comapartir en futuras publicaciones? </br></p>
     <br><br><br>
-    <textarea name="comments" id="" cols="30" rows="10">Escribe aquí!</textarea>
+    <textarea name="comments" id="text" cols="83" rows="10">Escribe aquí!</textarea>
     <br>
     <input type="submit" value="Enviar">
     <button type="reset">Reset</button>
     <br><br>
     <p>¡Gracias por compartir tus pensamientos y ser parte de nuestra comunidad de viajes!</p>
     </form>
-
-    <!--https://app.netlify.com/drop-->
     </div>
 
     <footer class="containerfooter">
@@ -61,10 +59,43 @@
         <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
         <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
 
-       
-
         <p class="pfooter">Copyright 2023</p>
 
     </footer>
-</body>
-</html>
+
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("formulario").addEventListener("submit", validarFormulario);
+          });
+
+        function validarFormulario(evento) {
+            evento.preventDefault(); 
+            var name = document.getElementById("firstname").value;
+            var mail = document.getElementById("mail").value;
+            var text = document.getElementById("text").value;
+      
+            if (name.length === 0 || name.length < 4 || /\d/.test(name)) {
+              alert("Por favor, completa correctamente tu nombre.");
+              return;
+            }
+
+          
+                if (mail.indexOf('@') === -1) {
+                    alert("Por favor, escribe un correo electrónico válido con el símbolo '@'.");
+                return;
+            }
+
+         
+             if (text.length === 0) {
+             alert("Por favor, completa correctamente tu mensaje.");
+            return;
+            }
+        }
+            
+
+        
+        </script>    
+
+    </body>
+    </html>
