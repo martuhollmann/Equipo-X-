@@ -81,7 +81,7 @@
             }
 
           
-            if (email.indexOf('@') === -1) {
+            if (email.indexOf('@') === -1 || !email.endsWith('.com')) {
                 alert("Por favor, escribe un correo electrónico válido con el símbolo '@'.");
                 return;
             }
