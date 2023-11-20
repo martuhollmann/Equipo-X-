@@ -10,25 +10,25 @@ body{
 
  /* Header Y nav */
 
- .header{
+.header{
     background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 85px;
     padding: 5px 10%;
-  }
+}
 
 .header .logo{
   cursor: pointer;
 }
 
 header .logo img{ 
-  height: 60px;
-  width: auto;
-  transition: 0.3s;
-  filter: invert(100%); /* Cambia el color a blanco */
-}
+    height: 60px;
+    width: auto;
+    transition: 0.3s;
+    filter: invert(100%); /* Cambia el color a blanco */
+  }
 
 header .logo img:hover{
     transform: scale(1.2);
@@ -41,10 +41,11 @@ header .logo img:hover{
     margin: auto;
     display: block;
 }
+
 .header .btn button{
     font-weight: 700;
     color: #1b3039;
-    padding: 9px 25px;
+    padding: 9px 15px;
     background-color: #eceff1;
     border-radius: 50px;
     cursor: pointer;
@@ -83,31 +84,24 @@ header .logo img:hover{
  /* main */
 
 .containerppal {
-    margin-left: 17% ;
-    margin-right: 17%;
+    margin: 0 10px;
    
 }
 
 .form {
     border: solid violet 0.1rem;
     padding: 5%;
-    margin-left: 17%;
-    margin-right: 17%;
     border-radius: 35px 0 35px 0;
 }
 
  /* footer */
 
 .containerfooter {
-    width: 100vw;
-    height: 20vh;
-    text-align:center;
     background-color: #000;
     color: lavender;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-    margin-top: 40px;
+    text-align: center;
+    padding: 1rem;    
+    margin-top: 20px;
  }
   
 .pfooter, .afooter {
@@ -115,11 +109,34 @@ header .logo img:hover{
     color: lavender;
     text-decoration: none;
 }
-.fa-instagram{
-    margin: 0 10px;
+.fa-instagram, .fa-facebook{
+    margin: 0 5px;
 }
   
-.fa-facebook{
-    margin: 0 10px;
-   
+@media screen and (min-width: 600px) {
+    /* Ajustes para tabletas y dispositivos más grandes */
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .logo {
+        margin-bottom: 0;
+    }
+
+    .imgheader {
+        max-height: 30vh;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    /* Ajustes para escritorios */
+    .containerppal {
+        margin: 0 17%;
+    }
+
+    .form {
+        margin: 0 17%;
+    }
 }
