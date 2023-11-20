@@ -45,7 +45,7 @@
     <br><br><br>
     <p>¿Tienes alguna anécdota de viaje especial que te gustaría compartir con la comunidad? ¿Te gustaría que explore para comapartir en futuras publicaciones? </br></p>
     <br><br><br>
-    <textarea name="comments" id="text" cols="83" rows="10">Escribe aquí!</textarea>
+    <textarea name="comments" id="text" cols="83" rows="10" placeholder="Escribe aquí!"></textarea>
     <br>
     <input type="submit" value="Enviar">
     <button type="reset">Reset</button>
@@ -66,7 +66,7 @@
     <script>
         
         document.addEventListener("DOMContentLoaded", function () {
-            document.getElementById("formulario").addEventListener("submit", validarFormulario);
+            document.getElementById("formulario").addEventListener("submit",validarFormulario);
         });
 
         function validarFormulario(evento) {
@@ -76,8 +76,8 @@
             var text = document.getElementById("text").value;
       
             if (name.length === 0 || name.length < 4 || /\d/.test(name)) {
-              alert("Por favor, completa correctamente tu nombre.");
-              return false;
+                alert("Por favor, completa correctamente tu nombre.");
+                return false;
             }
 
           
@@ -87,16 +87,16 @@
             }
 
          
-             if (text.length === 0 || text === "Escribe aquí!") {
-             alert("Por favor, completa correctamente tu mensaje.");
-            return false;
+            if (text.length === 0 || text === "Escribe aquí!") {
+                alert("Por favor, completa correctamente tu mensaje.");
+                return false;
             }
 
             
-            document.getElementById("formulario").action = "https://formspree.io/f/xeqbnlyj";
+            document.getElementById("formulario").submit(); 
             
             alert("¡Gracias por contactarte con nosotros!");
-            location.reload();
+            
             return true;
         }
 
